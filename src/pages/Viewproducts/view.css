@@ -1,0 +1,18 @@
+.price{
+    text-align: center;
+    color: rgb(51, 10, 148);
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+
+}
+p{
+    justify-content: center;
+    text-align: center;
+}
+Button{
+    display: block; /* make the button a block-level element */
+    margin: 0 auto; /* center the button horizontally */
+    margin-left: 30%;
+}

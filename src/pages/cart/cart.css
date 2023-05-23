@@ -1,0 +1,43 @@
+.wishlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .wishlist-table th,
+  .wishlist-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .wishlist-table th {
+    background-color: #0f0808;
+    font-weight: bold;
+  }
+  
+  .wishlist-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .remove-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333;
+  }
+  
+  .remove-button:focus {
+    outline: none;
+  }
+  table{
+    width: 100%;
+  }
+  img{
+    width: 30%;
+    
+  }

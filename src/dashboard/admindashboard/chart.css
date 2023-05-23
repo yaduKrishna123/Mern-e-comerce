@@ -1,0 +1,74 @@
+/* CSS for Admin Dashboard */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    margin-top: 30px;
+  }
+  
+  .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    flex: 1;
+    width: 100%;
+    background-color: rgb(49, 47, 47);
+  }
+  
+  .chart h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for Pie Chart */
+  .pie-chart-container{
+    width: 70%;
+    margin: 10px;
+    padding: 5px;
+    
+    height: 700px;
+    
+  }
+ 
+  
+  /* CSS for Bar Graph */
+  .bar-graph {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+  }
+  
+  /* CSS for Chart Labels */
+  .chart-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chart-label .color-box {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+  
+  /* CSS for Bar Graph Percentage */
+  .bar-percentage {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
